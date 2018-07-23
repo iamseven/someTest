@@ -3,14 +3,5 @@ class Dapi < ActiveRecord::Base
     include JSON
     
     
-    def self.SearchRace
-       require 'json'
-       ActiveRecord::Base.connection.execute("SELECT * FROM DestinyRaceDefinition")
-       
-       #gsub('=>', ':')
-        #test3 = test2.gsub("\\", '')
-       
-       
-    end
     
 end
