@@ -1,7 +1,7 @@
-class Dapi < ActiveRecord::Base
-    include HTTParty
-    include JSON
+#class Dapi < ActiveRecord::Base
+#    include HTTParty
+#    include JSON
     
     
     
-end
+#end
