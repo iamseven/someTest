@@ -7,7 +7,7 @@ def self.getQuery (query)
     HTTParty.get(query,
                   :headers => {'Accept' => 'application/json',
                                'Content-Type' => 'application/json',
-                               'X-API-Key' => ENV['X_API_KEY']
+                               'X-API-Key' => "52630c6c89b344ceaa9e7d621dc58889"
                                }).body
 end
 
