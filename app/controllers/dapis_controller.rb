@@ -2,18 +2,6 @@ class DapisController < ApplicationController
   after_action :set_dapi, only: [:show]
   
 
-  #def self.XapiKey
-  # ['52630c6c89b344ceaa9e7d621dc58889']
-  #end
-  
-  #def getResponse (query)
-  #  HTTParty.get(query,
-  #                :headers => {'Accept' => 'application/json',
-  #                             'Content-Type' => 'application/json',
-  #                             'X-API-Key' => DapisController.XapiKey[0]
-  #                             }).body
-  #end
-  
   # GET /dapis
   # GET /dapis.json
   def index
